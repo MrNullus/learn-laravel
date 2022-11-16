@@ -45,7 +45,7 @@ Inserindo dados que provém do Banco e também tags HTML. Ou seja, as Views ser�
 - Para casos de varias condicionais, em uma mesma verificação lógica usando o elseif:
 
 ```php
-@if ($nome === 'Pedro)
+@if ($nome === 'Pedro')
     <p>O nome é pedro</p>
 @elseif ($nome === 'Gustavo')
     <p>O nome é Gustavo</p>
@@ -54,3 +54,10 @@ Inserindo dados que provém do Banco e também tags HTML. Ou seja, as Views ser�
 @endif
 ```
 
+<br>
+
+**Loop**
+
+Podemos criar **estruturas de controle** (loops ou mesmo laços de repetição) no Blade;
+
+Assim como também é possivel executar codigo **PHP Puro**, possui uma alta versatilidade e permite chegar em um resultado excelente;
