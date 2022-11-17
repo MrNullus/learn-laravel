@@ -412,10 +412,23 @@
     @endif
 
     @for ($i = 0; $i < count($arr); $i++)
-      <p>
-        {{ $arr[$i] }} - {{ $i }}
-      </p>
+      @if ($i > 2)
+        <p>
+          {{ $arr[$i] }} - {{ $i }}
+        </p>
+      @endif
     @endfor
+
+    @foreach ($nomes as $nome)
+      <p>
+        {{ $loop->index }} - {{ $nome }}
+      </p>
+    @endforeach
+
+    @php
+        $name = 'Punk Junior Silveira';
+        echo $name;
+    @endphp
 </body>
 
 </html>

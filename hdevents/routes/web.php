@@ -17,6 +17,7 @@ Route::get('/', function () {
   $nome = 'Gustavo';
   $idade = 17;
   $arr = [1, 2, 3, 4, 5];
+  $nomes = ['Maria', 'Pádme', 'Cycrux', 'Lucanda Barbosa']
 
   return view(
     'welcome',
@@ -24,7 +25,8 @@ Route::get('/', function () {
       'nome'      => $nome,
       'idade'     => $idade,
       'profissao' => 'Programador',
-      'arr'       => $arr
+      'arr'       => $arr,
+      'nomes'     => $nome
     ]
   );
 });
