@@ -17,7 +17,7 @@ Route::get('/', function () {
   $nome = 'Gustavo';
   $idade = 17;
   $arr = [1, 2, 3, 4, 5];
-  $nomes = ['Maria', 'Pádme', 'Cycrux', 'Lucanda Barbosa']
+  $nomes = ['Maria', 'Pádme', 'Cycrux', 'Lucanda Barbosa'];
 
   return view(
     'welcome',
@@ -37,4 +37,8 @@ Route::get('/contact', function () {
 
 Route::get('/products', function () {
   return view('products');
+});
+
+Route::get('/products/{id}', function () {
+  return view('products', ['id' => $id]);
 });

@@ -1,3 +1,8 @@
-<h1>Está é uma página Produtos</h1>
+@extends('layouts.main')
 
-<a href="/">Voltar para o Home</a>
+@section('title', 'Produtos')
+
+@section('content')
+    <h1>Tela Produtos</h1>
+    <a href="/">Voltar para o Home</a>
+@endsection

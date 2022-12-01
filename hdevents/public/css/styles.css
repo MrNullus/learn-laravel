@@ -1,4 +1,22 @@
 body {
-  background: #262626;
-  font-family: 'Nunito', sans-serif;
+  background: #161111;
+  font-family: 'Inconsolata', monospace;
+  color: #fff;
+  font-size: 16px;
+}
+
+a {
+  color: violet;
+}
+
+a:hover {
+  opacity: 0.78;
+}
+
+
+h1 {
+  font-size: 2.8rem;
+  color: blueviolet;
+  text-align: center;
+  font-weight: bolder;
 }
