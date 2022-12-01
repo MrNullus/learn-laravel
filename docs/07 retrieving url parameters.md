@@ -15,6 +15,6 @@
 // -> onde `parameter` é o parametro que está sendo esperado para aquela route
 // -> deve ser passado um array com o nome do parametro e o seu valor
 Route::get('/products/{parameter}', function () {
-  return view('products', ['id' => $id]);
+  return view('product', ['id' => $id]);
 });
 ```
