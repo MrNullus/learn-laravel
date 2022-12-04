@@ -3,10 +3,13 @@ body {
   font-family: 'Inconsolata', monospace;
   color: #fff;
   font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-  color: violet;
+  color: rgb(245,169,71)!important;
 }
 
 a:hover {
@@ -15,8 +18,28 @@ a:hover {
 
 
 h1 {
+  padding: 1rem 0.45rem;
   font-size: 2.8rem;
-  color: blueviolet;
+  color: rgb(80,182,207);
   text-align: center;
   font-weight: bolder;
+}
+
+
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background: #191919;
+  padding: 1.3rem 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(250, 250, 250, 0.8);
+}
+
+#navbar img {
+  width: 100px;
 }

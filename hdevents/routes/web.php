@@ -26,7 +26,7 @@ Route::get('/', function () {
       'idade'     => $idade,
       'profissao' => 'Programador',
       'arr'       => $arr,
-      'nomes'     => $nome
+      'nomes'     => $nomes
     ]
   );
 });
@@ -36,9 +36,15 @@ Route::get('/contact', function () {
 });
 
 Route::get('/products', function () {
-  return view('products');
+  $busca = request('search');
+
+  return view('products', ['busca' => $busca]);
 });
 
-Route::get('/products/{id}', function () {
-  return view('products', ['id' => $id]);
+Route::get('/products/{id}', function ($id) {
+  return view('product', ['id' => $id]);
+});
+
+Route::get('/products_test/{id?}', function ($id = null) {
+  return view('product', ['id' => $id]);
 });
