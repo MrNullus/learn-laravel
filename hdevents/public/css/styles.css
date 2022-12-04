@@ -18,7 +18,7 @@ a:hover {
 
 
 h1 {
-  padding: 1rem 0.45rem;
+  padding: 1.4rem 0.45rem;
   font-size: 2.8rem;
   color: rgb(80,182,207);
   text-align: center;
@@ -43,3 +43,15 @@ h1 {
 #navbar img {
   width: 100px;
 }
+
+.nav-item .nav-link {
+  font-weight: 600;
+  letter-spacing: 1pt;
+}
+
+.nav-item .nav-link:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: rgb(80,182,207);
+}
+
