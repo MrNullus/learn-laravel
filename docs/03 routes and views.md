@@ -57,5 +57,5 @@ myapp
 </pre>
 
 Depois deve se criar um arquivo com: `nomeDaView.blade.php`.
-  - Sempre deve ter o `.blade.php` seguido antes do nome da sua view;
+  - Sempre deve ter o `.blade.php` seguido depois do nome da sua view;
 
