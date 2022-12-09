@@ -24,7 +24,7 @@
         `@section('content', 'Value from content)`
   - Casos em que precise exibir mais de um valor, colocar um trecho de HTML por exemplo, deve-se usar:
     ```php
-    @section()
+    @section('content')
     <h2>Conteudo da section a ser alterado</h2>
     @endsection
     ```
