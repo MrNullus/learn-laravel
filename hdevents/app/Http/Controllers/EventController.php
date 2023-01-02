@@ -10,9 +10,10 @@ class EventController extends Controller
 {
 
   public function index() {
+    // - Chamada de um método do Eloquent
     $events = Event::all();
 
-    return view('welcome', []);
+    return view('welcome', ['events' => $events]);
   }
 
   public function create() {
