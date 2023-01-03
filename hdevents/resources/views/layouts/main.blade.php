@@ -46,7 +46,7 @@
         </navbar>
     </header>
 
-    @yield('content');
+    @yield('content')
 
     <footer>
         <h5>Mr Nullus 💜 &copy; 2022</h5>

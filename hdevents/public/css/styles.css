@@ -1,4 +1,6 @@
+/* General */
 body {
+  min-height: 100vh;
   background: #161111;
   font-family: 'Inconsolata', monospace;
   color: #fff;
@@ -6,6 +8,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 a {
@@ -55,3 +58,18 @@ h1 {
   text-decoration-color: rgb(80,182,207);
 }
 
+.row {
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.btn-primary {
+
+}
+
+.card-body {
+  color: #333;
+}
