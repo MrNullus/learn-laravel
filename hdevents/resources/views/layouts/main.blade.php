@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>HD Events || @yield('title')</title>
+    <title>@yield('title')</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,7 +46,18 @@
         </navbar>
     </header>
 
-    @yield('content')
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                @@if (session('msg'))
+                    <p class="msg">
+                        {{ session('msg') }}
+                    </p>
+                @endif
+                @yield('content')
+            </div>
+        </div>
+    </main>
 
     <footer>
         <h5>Mr Nullus 💜 &copy; 2022</h5>

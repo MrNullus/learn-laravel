@@ -18,12 +18,10 @@ use App\Http\Controllers\EventController;
 Route::get('/', [EventController::class, 'index']);
 
 Route::get('/events/create/', [EventController::class, 'create']);
+Route::post('/events', [EventController::class, 'store']);
 
 Route::get('/contact', [ContactController::class, 'index']);
 
-Route::get('/products', [ProductController::class, 'index']);
-
-Route::get('/products/{id}', [ProductController::class, 'pegarProduto']);
   
 
 /*
