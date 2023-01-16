@@ -1,3 +1,3 @@
 # Learn Laravel
 
-Repositório que contém conteúdos de Laravel, relacionado ao conhecimentos que estou adquirindo.
+Repositório que contém conteúdos de Laravel, relacionado aos conhecimentos que estou adquirindo.
