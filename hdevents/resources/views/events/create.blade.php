@@ -57,6 +57,41 @@
           placeholder="O que vai acontecer no evento?" 
         ></textarea>
       </div>
+      <div class="form-group">
+        <label for="title">Adicine itens de infraestrutura:</label>
+        <div class="form-group">
+          <input 
+            type="checkbox" 
+            name="items[]" 
+            value="cadeiras" 
+          />
+          Cadeiras
+        </div>
+        <div class="form-group">
+          <input 
+            type="checkbox" 
+            name="items[]" 
+            value="palco" 
+          />
+          Palco
+        </div>
+        <div class="form-group">
+          <input 
+            type="checkbox" 
+            name="items[]" 
+            value="Open foods" 
+          />
+          Cerveja Gratis
+        </div>
+        <div class="form-group">
+          <input 
+            type="checkbox" 
+            name="items[]" 
+            value="Brindse" 
+          />
+          Brindes
+        </div>
+      </div>
 
       <button class="btn btn-primary">
         Criar Evento

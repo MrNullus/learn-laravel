@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Event extends Model
 {
     use HasFactory;
+    //+> Com isso o Eloquent fara o casting de dados 
+    protected $casts = [
+        //item  => "tipo" 
+        "items" => "array"
+    ];
 }

@@ -32,6 +32,16 @@
 			<a href="#" class="btn btn-primary" id="event-submit">
 				Confirmar Presença
 			</a>
+			<h3>O Evento conta:</h3>
+			<ol class="items-list">
+			@foreach ($event->items as $item)
+				<li>
+					<ion-icon name="play-outline">
+						<span>{{ $item }}</span>
+					</ion-icon>
+				</li>
+			@endforeach
+			</ol>
 		</div>
 
 		<div class="col-md-12" id="description-container">
