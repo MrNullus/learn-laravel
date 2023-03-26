@@ -13,4 +13,7 @@ class Event extends Model
         //item  => "tipo" 
         "items" => "array"
     ];
+
+    //+> Definir para o Eloquent quais campos são datas
+    protected $dates = [ 'date' ];
 }

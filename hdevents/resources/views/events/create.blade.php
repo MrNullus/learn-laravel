@@ -16,6 +16,7 @@
           name="image" 
         />
       </div>
+
       <div class="form-group">
         <label for="title">Evento:</label>
         <input 
@@ -24,6 +25,16 @@
           id="title" 
           name="title"
           placeholder="Nome do evento" 
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Data do Evento:</label>
+        <input 
+          type="date" 
+          class="form-control" 
+          id="date" 
+          name="date"
         />
       </div>
 
